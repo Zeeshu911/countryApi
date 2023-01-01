@@ -1,0 +1,59 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.navbar-title{
+    font-size: 1.55rem;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.card{
+    height: 100%;
+    padding: 10px 0;
+}
+.data{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem;
+}
+.data .tag{
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(40, 40, 179);
+}
+.singleCountry{
+    min-height: 100vh; 
+    padding: 3.3rem; 
+    display: flex;
+    align-items: center;
+}
+.data .tag span{
+    display: flex;
+    margin-left: 7px;
+    font-weight: 500;
+    color: rgba(255, 224, 48, 0.774);
+}
+.data .tag span li{
+    list-style: none;
+    margin-right: 15px;
+}
+.content{
+    background: linear-gradient(45deg, #BDC3C7, #2C3E50);
+}
+@media(max-width: 650px){
+    .data .tag{
+        width: 100%;
+    }
+}
+@media(max-width: 500px){
+    .image img{
+        width: 15rem;
+    }
+}
+@media(max-width: 410px){
+    .image img{
+        padding: 0 1rem;
+    }
+}
